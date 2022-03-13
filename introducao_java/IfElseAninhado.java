@@ -2,8 +2,7 @@ import javax.swing.JOptionPane;
 public class IfElseAninhado {
 public static void main(String[] args) {
 double nota;
-nota = Double.parseDouble(JOptionPane.showInputDialog("Digite
-a nota"));
+nota = Double.parseDouble(JOptionPane.showInputDialog java("Digite a nota"));
 if (nota >= 90) {
 JOptionPane.showMessageDialog(null, "Parabéns");
 JOptionPane.showMessageDialog(null, "Conceito A");
