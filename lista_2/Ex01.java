@@ -9,7 +9,7 @@ numero = Double.parseDouble(JOptionPane.showInputDialog("Digite o numero"));
 if (numero > 0) {
 JOptionPane.showMessageDialog(null,"Positivo");
 }
-else (numero < 0 ) {
+else if (numero < 0 ) {
     JOptionPane.showMessageDialog(null, "Negativo");
 }
 else {
