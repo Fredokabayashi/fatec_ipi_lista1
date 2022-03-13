@@ -5,8 +5,7 @@ public class Ex01 {
 // declaração de variáveis
 
 double numero;
-numero = Double.parseDouble(JOptionPane.showInputDialog("Digite
-o numero"));
+numero = Double.parseDouble(JOptionPane.showInputDialog("Digite o numero"));
 if (numero > 0) {
 JOptionPane.showMessageDialog(null,"Positivo");
 }
@@ -17,6 +16,3 @@ if (numero = 0){
     JOptionPane.showMessageDialog(null, "Neutro");
         }
       }
-    }
-  }
-}
