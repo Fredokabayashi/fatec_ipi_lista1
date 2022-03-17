@@ -1,4 +1,4 @@
-/* 3. Ler três valores reais e exibir o maior valor entre eles. 
+/* Ex03. Ler três valores reais e exibir o maior valor entre eles. 
 Suponha que eles sejam diferentes. */
 
 public class Ex03 {
