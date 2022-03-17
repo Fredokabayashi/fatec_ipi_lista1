@@ -1,40 +1,35 @@
 /* Ex03. Ler três valores reais e exibir o maior valor entre eles. 
 Suponha que eles sejam diferentes. */
 
+import java.util.Scanner;
 public class Ex03 {
     public static void main(String[] args) {
         
 	
             //chama e/ou cria Scanner para obter dados a partir da janela de comando
-            Scanner input = new Scanner(System.in);
+            Scanner input;
+            input = new Scanner(System.in);
             
-            int number1;
-            int number2;
-            int number3;
+            Double numero1, numero2, numero3, maior;
             
-            int soma;
-            int max;
-            int mim;
-            int numero3 = 0;
+            System.out.println("Digite o primeiro numero:   \n");
+            numero1 = input.nextDouble();
             
-            System.out.print("Digite o primeiro número:   \n");
-            number1 = input.nextInt();
+            System.out.println("Digite o segundo numero:    \n");
+            numero2 = input.nextDouble();
             
-            System.out.print("Digite o segundo número:    \n");
-            number2 = input.nextInt();
+            System.out.println("Digite o terceiro numero:   \n");
+            numero3 = input.nextDouble();
             
-            System.out.print("Digite o terceiro número:   \n");
-            number3 = input.nextInt();
-            
-             if (number1 > number2)
-                  number1 = numero3;
-                  number2 = numero3;
-                  else
-                      number1 = 
-            
+            maior = numero1;
+
+             if (numero2 > maior) maior = numero2;
+             if (numero3 > maior) maior = numero3;
+                
+            System.out.printf("Maior numero = %.1f!", maior);
+            input.close();
             
         
         }
     }
     
-}
